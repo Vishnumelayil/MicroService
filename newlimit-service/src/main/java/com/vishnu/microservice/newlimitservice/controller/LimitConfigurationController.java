@@ -11,19 +11,13 @@ import com.vishnu.microservice.newlimitservice.bean.LimitConfiguration;
 
 @RestController
 public class LimitConfigurationController {
-	
-	@Value("${limit-service.minimum}")
-	int minumum;
-	@Value("${limit-service.maximum}")
-	int maximum;
-	
 	@Autowired
 	private MyAppProperties properties;
 
 	@GetMapping("/limits")
 	public LimitConfiguration getLimitValue() {
 		System.out.println(properties.getMinimum());
-		return new LimitConfiguration(properties.getMinimum(),properties.getMaximum());
+		return new LimitConfiguration(properties.getMaximum(),properties.getMinimum());
 	}
 
 }

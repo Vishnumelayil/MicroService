@@ -4,7 +4,8 @@ import java.math.BigDecimal;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.Id;//changed the vale
+import javax.persistence.Id;
+//changed the value by vishnumelayil4
 
 @Entity
 public class ExchangeValue {

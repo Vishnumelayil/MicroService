@@ -8,7 +8,7 @@ import javax.persistence.Id;//changed the vale
 
 @Entity
 public class ExchangeValue {
-//conflictlocal
+//changed vishnum8
 	@Id
 	private Long id;
 

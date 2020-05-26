@@ -9,6 +9,7 @@ import javax.persistence.Id;//changed the vale
 @Entity
 public class ExchangeValue {
 //changed vishnum8
+//sampleFile
 	@Id
 	private Long id;
 

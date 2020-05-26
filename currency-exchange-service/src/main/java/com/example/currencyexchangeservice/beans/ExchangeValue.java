@@ -8,7 +8,7 @@ import javax.persistence.Id;
 
 @Entity
 public class ExchangeValue {
-
+//sampleFile
 	@Id
 	private Long id;
 
